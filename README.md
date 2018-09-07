@@ -11,3 +11,4 @@
 ================
 
 + [руководство по написанию кодов](https://pythonworld.ru/osnovy/pep-8-rukovodstvo-po-napisaniyu-koda-na-python.html#id12)
++ [ссылка на гугл-диск с материалами](https://drive.google.com/drive/u/0/folders/1P3Xb_SlWsOSkw_2I2VuSb_wuo0j-F2dF)
