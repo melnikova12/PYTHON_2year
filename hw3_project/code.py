@@ -91,7 +91,7 @@ def download_page(pageurl):
     try:
         page = urllib.request.urlopen(pageurl)
         text = page.read().decode('utf-8')
-        print('Success at', pageurl)
+        print('Успешно: ', pageurl)
         return text
     except:
         return 0
