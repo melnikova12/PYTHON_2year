@@ -56,7 +56,7 @@ def write_page(page, name, date, url, number):
         os.system(
             "/Users/melnikovaarina/Desktop/CODING/ПРОЕКТ/mystem" + " -cgid " + path + number + ".txt " + path_mystem_xml + number + ".xml")
     if not f.writable:
-        print("Unable to get access to the end file.")
+        print("Прооизошла ошибка - невозможно получить доступ к файлу!")
 
 
 def write_raw_page(page, number):
@@ -66,7 +66,7 @@ def write_raw_page(page, number):
               encoding="utf-8") as f:
         f.write(page)
     if not f.writable:
-        print("Unable to get access to the end file.")
+        print("Произошла ошибка - невозможно получить доступ к файлу!")
 
 #отчистка от тегов
 def clean_tags(html_content):
@@ -114,4 +114,4 @@ def find_pages():
 
 make_csv()
 find_pages()
-print("final")
+print("Процесс завершен!")
