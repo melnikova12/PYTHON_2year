@@ -1,0 +1,2 @@
+Методы: GET, HEAD, POST, PUT, DELETE 
+Обычно для сайтов по дефолту отключены PUT и DELETE
