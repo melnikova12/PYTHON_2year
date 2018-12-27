@@ -89,11 +89,3 @@ def main():
     letters(unknown_word, word)
 
 main()
-    
-
-
-
-    
-    
-            
-
